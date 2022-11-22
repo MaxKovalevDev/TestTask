@@ -21,12 +21,12 @@ namespace Terrasoft.Confuguration
 		/// </summary>
 		public static class SysSettings
 		{
-			/// <summary> Логин SFTP сервера </summary>
-			public static readonly string SFTPLogin = "SFTPLogin";
-			/// <summary> Пароль SFTP сервера </summary>
-			public static readonly string SFTPPassword = "SFTPPassword";
-			/// <summary> URL SFTP сервера </summary>
-			public static readonly string SFTPUrl = "SFTPUrl";
+			/// <summary> Логин FTPS сервера </summary>
+			public static readonly string FTPSLogin = "SFTPLogin";
+			/// <summary> Пароль FTPS сервера </summary>
+			public static readonly string FTPSPassword = "SFTPPassword";
+			/// <summary> URL FTPS сервера </summary>
+			public static readonly string FTPSUrl = "SFTPUrl";
 
 		}
 	}

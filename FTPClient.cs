@@ -14,7 +14,7 @@ using static MassTransit.MessageHeaders;
 namespace Terrasoft.Confuguration
 {
 	/// <summary>
-	/// Клиент для подключения к SFTP
+	/// Клиент для подключения к FTPS
 	/// </summary>
 	internal class FTPClient
 	{

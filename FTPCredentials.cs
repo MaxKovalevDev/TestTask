@@ -29,7 +29,7 @@ namespace Terrasoft.Confuguration
 			{
 				if (string.IsNullOrEmpty(this.url))
 				{
-					this.url = Core.Configuration.SysSettings.GetValue(UserConnection, ServerConstants.SysSettings.SFTPUrl, String.Empty);
+					this.url = Core.Configuration.SysSettings.GetValue(UserConnection, ServerConstants.SysSettings.FTPSUrl, String.Empty);
 				}
 				return url;
 			}
@@ -44,7 +44,7 @@ namespace Terrasoft.Confuguration
 			{
 				if(string.IsNullOrEmpty(this.login))
 				{
-					this.login = Core.Configuration.SysSettings.GetValue(UserConnection, ServerConstants.SysSettings.SFTPLogin, String.Empty);
+					this.login = Core.Configuration.SysSettings.GetValue(UserConnection, ServerConstants.SysSettings.FTPSLogin, String.Empty);
 				}
 				return login;
 			}
@@ -59,7 +59,7 @@ namespace Terrasoft.Confuguration
 			{
 				if (string.IsNullOrEmpty(this.password))
 				{
-					this.password = Core.Configuration.SysSettings.GetValue(UserConnection, ServerConstants.SysSettings.SFTPPassword, String.Empty);
+					this.password = Core.Configuration.SysSettings.GetValue(UserConnection, ServerConstants.SysSettings.FTPSPassword, String.Empty);
 				}
 				return password;
 			}
